@@ -8,19 +8,19 @@ La idea acá es clara: cero programas raros, código 100% abierto y ajustes nati
 
 ### La idea detrás de esto
 
-* **Sabes lo que ejecutas:** No hay cajas negras. Son scripts en texto plano (`.bat` y `.ps1`) que puedes abrir con el Bloc de notas para revisar cada línea antes de hacer cualquier cosa.
-* **Cero problemas con anti-cheats:** No se desactiva HVCI ni VBS. Tu cuenta y tus juegos (Valorant, CS2, Fortnite) quedan totalmente seguros.
-* **Todo se puede deshacer:** Cada ajuste incluye su contraparte para volver a dejar Windows tal cual estaba de fábrica.
+ **Sabes lo que ejecutas:** No hay weas raras. Son scripts en texto plano (`.bat` y `.ps1`) que puedes abrir con el Bloc de notas para revisar cada línea antes de hacer cualquier cosa.
+ **Cero problemas con anti-cheats:** No se desactiva HVCI ni VBS. Tu cuenta y tus juegos (Valorant, CS2, Fortnite) quedan totalmente seguros.
+ **Todo se puede deshacer:** Cada ajuste incluye su contraparte para volver a dejar Windows tal cual estaba de fábrica.
 
 ---
 
 ### Qué cambia exactamente
 
-* **Mouse y Teclado 1:1:** Quita la aceleración por software de Windows y aplana la curva de movimiento para que la mira responda calcada a la mano.
-* **Red y Latencia:** Desactiva el algoritmo de Nagle para enviar paquetes pequeños al tiro sin acumularlos, reduciendo el jitter.
-* **Respuesta de CPU:** Evita que Windows duerma o estacione núcleos mientras juegas y le da prioridad de reloj a la ventana activa.
-* **GPU estable:** Activa el modo MSI nativo, habilita HAGS y apaga MPO para evitar tirones o parpadeos en pantalla.
-* **Menos procesos basura:** Corta la telemetría pesada, las sugerencias de la barra de tareas y el retardo artificial al abrir menús.
+ **Mouse y Teclado 1:1:** Quita la aceleración por software de Windows y aplana la curva de movimiento para que la mira responda calcada a la mano.
+ **Red y Latencia:** Desactiva el algoritmo de Nagle para enviar paquetes pequeños al tiro sin acumularlos, reduciendo el jitter.
+ **Respuesta de CPU:** Evita que Windows duerma o estacione núcleos mientras juegas y le da prioridad de reloj a la ventana activa.
+ **GPU estable:** Activa el modo MSI nativo, habilita HAGS y apaga MPO para evitar tirones o parpadeos en pantalla.
+**Menos procesos basura:** Corta la telemetría pesada, las sugerencias de la barra de tareas y el retardo artificial al abrir menús.
 
 ---
 
