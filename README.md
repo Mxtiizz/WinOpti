@@ -1,39 +1,37 @@
 # WinOpti
 
-Armé esto porque cansa ver gente en TikTok, YouTube y Discord cobrando 20 o 50 lucas por supuestas "optimizaciones bakanes". Al final te meten un ejecutable cerrado que nadie sabe qué hace, te clonan un plan de energía que ya viene por defecto en Windows y te apagan cosas críticas de seguridad que terminan rompiendo el anti-cheat de juegos como Valorant o tirándote pantallazos azules.
+Optimización real de Windows para gaming y rendimiento, sin humo, sin programas tránfugas y totalmente transparente.
 
-La idea acá es clara: cero programas raros, código 100% abierto y ajustes nativos del sistema que de verdad sirven.
+## ¿Qué es esto?
+Cansado de ver tanta estafa en TikTok, YouTube y Discord cobrando por "optimizar PCs" o metiéndote ejecutables cerrados que nadie sabe qué hacen (y que al final te apagan cosas críticas de seguridad terminando con baneos en Valorant o pantallas azules), armé WinOpti.
 
----
-
-### La idea detrás de esto
-
- **Sabes lo que ejecutas:** No hay weas raras. Son scripts en texto plano (`.bat` y `.ps1`) que puedes abrir con el Bloc de notas para revisar cada línea antes de hacer cualquier cosa.
- **Cero problemas con anti-cheats:** No se desactiva HVCI ni VBS. Tu cuenta y tus juegos (Valorant, CS2, Fortnite) quedan totalmente seguros.
- **Todo se puede deshacer:** Cada ajuste incluye su contraparte para volver a dejar Windows tal cual estaba de fábrica.
+Aquí no hay magia negra: son ajustes nativos de Windows (las mismas llaves del Registro, políticas y comandos de PowerShell que Microsoft incluye por defecto pero deja mal configuradas). Todo en texto plano (.bat), para que puedas leer cada línea antes de ejecutarlo.
 
 ---
 
-### Qué cambia exactamente
-
- **Mouse y Teclado 1:1:** Quita la aceleración por software de Windows y aplana la curva de movimiento para que la mira responda calcada a la mano.
- **Red y Latencia:** Desactiva el algoritmo de Nagle para enviar paquetes pequeños al tiro sin acumularlos, reduciendo el jitter.
- **Respuesta de CPU:** Evita que Windows duerma o estacione núcleos mientras juegas y le da prioridad de reloj a la ventana activa.
- **GPU estable:** Activa el modo MSI nativo, habilita HAGS y apaga MPO para evitar tirones o parpadeos en pantalla.
-**Menos procesos basura:** Corta la telemetría pesada, las sugerencias de la barra de tareas y el retardo artificial al abrir menús.
-
----
-
-### Cómo se usa
-
-1. Dale al botón verde **Code** arriba a la derecha y selecciona **Download ZIP**.
-2. Descomprime la carpeta en el escritorio o donde prefieras.
-3. Entra a la carpeta de scripts, haz clic derecho sobre el archivo que quieras usar y selecciona **Ejecutar como administrador**.
-4. Reinicia el equipo para que Windows cargue los cambios en el registro.
-
-Por precaución, crea siempre un Punto de Restauración antes de tocar el sistema.
+## ¿Qué optimiza?
+ **Modo de Juego nativo:** Prioriza los recursos de hardware para el juego que tengas en pantalla.
+ **Desactivación de Game DVR:** Evita tirones y micro-cortes de FPS en segundo plano.
+ **Raw Input para el Mouse (1:1):** Elimina la aceleración artificial para que la sensibilidad de tu puntero sea exacta.
+ **Reducción de latencia de red (TCP No Delay):** Desactiva el algoritmo de Nagle para raspar esos milisegundos de ping clave en competitivo.
+**Prioridad de procesos:** Mejora la asignación de recursos para la aplicación que tienes en primer plano.
+ **Limpieza de temporales:** Borra la basura acumulada del sistema (%TEMP% y carpetas Temp) sin romper nada crítico.
 
 ---
 
+## Seguridad y Anti-Cheats (Valorant, EasyAntiCheat, etc.)
+ **Cero riesgo de baneo:** Al no modificar archivos del kernel, no tocar la seguridad de Windows (como HVCI o Core Isolation) y usar solo comandos oficiales, tu anti-cheat favorito no va a saltar ni te va a dar ban.
+ **100% Auditable:** Puedes abrir el archivo .bat con el Bloc de notas y revisar exactamente qué hace cada línea antes de correrlo. 
 
-El código usa licencia MIT, así que puedes mirarlo, modificarlo y compartirlo con quien quieras.
+---
+
+## ¿Cómo usarlo?
+1. Ve a la sección de archivos del repositorio y descarga el script.
+2. Hazle clic derecho al archivo .bat.
+3. Selecciona "Ejecutar como administrador" (necesita permisos para modificar el registro).
+4. Sigue las instrucciones en pantalla, ¡y listo! Reinicia tu PC para aplicar los cambios al 100%.
+
+---
+
+## Licencia
+Este proyecto está bajo la licencia MIT. Eres libre de modificarlo, compartirlo y adaptarlo a tu gusto. Comparte el conocimiento y dile no a los vendehumos.
