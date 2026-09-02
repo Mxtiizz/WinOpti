@@ -13,7 +13,8 @@ if %errorLevel% neq 0 (
 )
 
 echo ========================================================
-echo      = WINOPTI = Ajustes Nativos de Windows
+echo      = WINOPTI = Ajustes Nativos de Windows 
+echo                    = mattzz =
 echo ========================================================
 echo.
 echo Se aplicaran ajustes nativos para reducir latencia, 
